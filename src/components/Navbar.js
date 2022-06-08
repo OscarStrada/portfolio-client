@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 import { HiOutlineX, HiMenuAlt3 } from 'react-icons/hi';
 import { MovilMenu } from './MovilMenu';
 
@@ -22,11 +22,19 @@ export const Navbar = () => {
           </div>
           {/* Navigation - navbar */}
           <nav className="flex-1">
-            <ul className="hidden md:flex justify-end space-x-10">
-              <li>About</li>
-              <li>Experience</li>
-              <li>Work</li>
-              <li>Contact</li>
+            <ul className="hidden md:flex justify-end items-center space-x-10">
+              <li>
+                <Link to={'/'}>About</Link>
+              </li>
+              <li>
+                <Link to={'/'}>Experience</Link>
+              </li>
+              <li>
+                <Link to={'/'}>Work</Link>
+              </li>
+              <button className="border border-green-custom text-green-custom hover:bg-[#00e600] hover:text-black px-5 py-2 rounded-sm">
+                <Link to={'/'}>Resume</Link>
+              </button>
             </ul>
           </nav>
         </div>
