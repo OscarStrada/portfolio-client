@@ -35,13 +35,13 @@ export const ScrollBar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <BsInstagram className="h-7 fill-[var(--complement-color)] hover:fill-[var(--green-color)]" />
+          <BsInstagram className="h-7 fill-[var(--gray-color-dark)] hover:fill-[var(--green-color)]" />
         </a>
         <a href="#" target="_blank" rel="noreferrer">
-          <FaLinkedinIn className="h-7 fill-[var(--complement-color)] hover:fill-[var(--green-color)]" />
+          <FaLinkedinIn className="h-7 fill-[var(--gray-color-dark)] hover:fill-[var(--green-color)]" />
         </a>
         <a href="https://github.com/Khutz" target="_blank" rel="noreferrer">
-          <BsGithub className="h-7 fill-[var(--complement-color)] hover:fill-[var(--green-color)]" />
+          <BsGithub className="h-7 fill-[var(--gray-color-dark)] hover:fill-[var(--green-color)]" />
         </a>
       </div>
     </div>
