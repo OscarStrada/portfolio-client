@@ -19,7 +19,7 @@ export const Banner = () => {
 
         <div className="flex items-center space-x-5 pt-20 md:pt-40">
           <HiArrowNarrowDown />
-          <div className="uppercase">continúa leyendo</div>
+          <div className="uppercase">acerca de mi</div>
           <HiArrowNarrowDown />
         </div>
       </div>
