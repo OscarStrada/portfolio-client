@@ -12,7 +12,7 @@ export const Banner = () => {
         <h1 className="md:w-3/4 text-[40px] md:text-[75px] leading-custom whitespace-pre-line">
           Frontend developer{' '}
           <span className="text-gray-light">
-            y desarrollo ideas programando
+            y no reparo planchas o licuadoras
           </span>
           <span className="text-green-custom">_</span>
         </h1>
