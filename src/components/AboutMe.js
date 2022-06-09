@@ -55,28 +55,12 @@ export const AboutMe = () => {
       </p>
       <p className="text-xl md:text-[18px] leading-relaxed">
         <span className="text-green-custom">></span>
-        Creé y expandi mi red de contactos en la industría, formando un equipo
-        de 3 desarrolladores profesionales a los cuales tengo una gran
-        admiración y respeto, porque me ayudarón a realizar proyectos para
-        algunos clientes y de los cuales he aprendido muchisimo
-      </p>
-      <p className="text-xl md:text-[18px] leading-relaxed">
-        <span className="text-green-custom">></span>
         En esta etapa de mi vida busco poder ingresar a una empresa donde pueda
         aprender el Know-How de la industria del software, desde la planeación
         hasta la administración de un proyecto, donde pueda ser guiado e
         instruido por gente con mayor experiencia que yo, donde pueda crecer
-        emocional y profesionalmente.
-      </p>
-      <p className="text-xl md:text-[18px] leading-relaxed">
-        <span className="text-green-custom">></span>
-        Creo firmemente que el conocimiento es el camino hacia el crecimiento,
-        que para alcanzar tu mayor potencial debe haber un equilibrio físico,
-        mental, emocional y económico en tu vida. No me considero un genio y no
-        pretendo serlo pero sin duda he desarrollado una gran habilidad para
-        resolver problemas aun cuando no tengo idea de como hacerlo. Mi
-        curiosidad por entender cómo funciona el mundo me mantiene en constante
-        aprendizaje y soy un fiel devoto de la disciplina.
+        emocional y profesionalmente. Creo firmemente que el conocimiento es el
+        camino hacia el crecimiento y soy un fiel devoto de la disciplina.
       </p>
     </div>
   );
