@@ -2,8 +2,10 @@ import React from 'react';
 
 export const Skills = () => {
   return (
-    <div className="w-full min-h-screen md:px-5 md:px-20 space-y-10">
-      <h2 className="md:text-lg">oestrada@Habilidades ~ % ls -la</h2>
+    <div className="w-full min-h-screen px-5 md:px-20 md:space-y-10">
+      <h2 className="text-green-custom md:text-lg">
+        oestrada@Habilidades ~ % ls -la
+      </h2>
       <div className="w-full flex md:grid md:grid-cols-9">
         <div className="hidden md:block">
           <p className="text-xl leading-relaxed">drwx----</p>
