@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AboutMe = () => {
   return (
-    <div className="w-full min-h-screen px-5 md:px-48 md:pt-20 md:pb-40 space-y-10">
+    <div className="w-full min-h-screen px-5 md:px-48 md:pt-20 pb-28 md:pb-40 space-y-10">
       <p className="text-xl leading-relaxed">
         <span className="text-green-custom">></span>
         Mi historía no comienza{' '}
@@ -36,7 +36,7 @@ export const AboutMe = () => {
         . Fue así como decidí renunciar a mi trayectoria en la industría
         automotríz y a mi carrera como{' '}
         <span className="text-green-custom">ingeniero electrónico</span> para
-        dar comienzo a mi carrera en la industría del software
+        dar comienzo a mi camino en la industría del software
       </p>
       <p className="text-xl leading-relaxed">
         <span className="text-green-custom">></span>

@@ -2,6 +2,7 @@ import React from 'react';
 import { AboutMe } from '../components/AboutMe';
 import { Banner } from '../components/Banner';
 import { ScrollBar } from '../components/ScrollBar';
+import { Skills } from '../components/Skills';
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       <main>
         <Banner />
         <AboutMe />
+        <Skills />
       </main>
       {/* Footer */}
       <footer></footer>
