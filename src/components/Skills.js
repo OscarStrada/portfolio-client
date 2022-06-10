@@ -25,7 +25,7 @@ export const Skills = () => {
           <p className="text-xl leading-relaxed">drwx----</p>
           <p className="text-xl leading-relaxed">drwx----</p>
         </div>
-        <div>
+        <div className="pr-2">
           <p className="md:text-xl leading-relaxed">HTML</p>
           <p className="md:text-xl leading-relaxed">CSS</p>
           <p className="md:text-xl leading-relaxed">SASS</p>
@@ -43,7 +43,7 @@ export const Skills = () => {
           <p className="md:text-xl leading-relaxed">Nextjs</p>
           <p className="md:text-xl leading-relaxed">Azure</p>
         </div>
-        <div className="col-start-3 col-end-5 text-center">
+        <div className="pr-2 col-start-3 col-end-5 text-center">
           <p className="col-span-3 md:text-xl leading-relaxed">Avanzado</p>
           <p className="col-span-3 md:text-xl leading-relaxed">Avanzado</p>
           <p className="col-span-3 md:text-xl leading-relaxed">Avanzado</p>
@@ -97,7 +97,7 @@ export const Skills = () => {
           <p className="md:text-xl leading-relaxed">Dec</p>
           <p className="md:text-xl leading-relaxed">Dec</p>
         </div>
-        <div>
+        <div className="pr-2">
           <p className="md:text-xl leading-relaxed">25</p>
           <p className="md:text-xl leading-relaxed">2</p>
           <p className="md:text-xl leading-relaxed">19</p>
@@ -115,7 +115,7 @@ export const Skills = () => {
           <p className="md:text-xl leading-relaxed">120</p>
           <p className="md:text-xl leading-relaxed">6</p>
         </div>
-        <div>
+        <div className="pr-2">
           <p className="md:text-xl leading-relaxed">15:17</p>
           <p className="md:text-xl leading-relaxed">12:41</p>
           <p className="md:text-xl leading-relaxed">05:11</p>
@@ -133,7 +133,7 @@ export const Skills = () => {
           <p className="md:text-xl leading-relaxed">08:18</p>
           <p className="md:text-xl leading-relaxed">23:07</p>
         </div>
-        <div>
+        <div className="pr-2">
           <p className="md:text-xl leading-relaxed">..</p>
           <p className="md:text-xl leading-relaxed">.</p>
           <p className="md:text-xl leading-relaxed">.npm</p>
