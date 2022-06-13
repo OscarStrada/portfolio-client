@@ -2,11 +2,11 @@ import React from 'react';
 
 export const Skills = () => {
   return (
-    <div className="w-full min-h-screen px-5 md:px-20 md:space-y-10">
-      <h2 className="text-green-custom md:text-lg">
+    <div className="w-full min-h-screen px-5 md:px-20 md:space-y-10 bg-light-custom dark:bg-dark-custom">
+      <h2 className="dark:text-green-custom md:text-lg">
         oestrada@Habilidades ~ % ls -la
       </h2>
-      <div className="w-full flex md:grid md:grid-cols-9">
+      <div className="w-full flex md:grid md:grid-cols-9 dark:text-white">
         <div className="hidden md:block">
           <p className="md:text-xl leading-relaxed">drwx----</p>
           <p className="md:text-xl leading-relaxed">-rw---r-</p>
