@@ -8,7 +8,7 @@ export const Navbar = () => {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
       setTheme('dark');
     } else {
       setTheme('light');

@@ -7,7 +7,7 @@ export const Banner = () => {
       <div className="pt-44 space-y-5">
         <p className="text-lg text-gray-400 dark:text-gray-lighter">
           > console.log('Hola mundo, soy
-          <span className="dark:text-white"> Oscar Estrada</span>') _
+          <span className="text-black dark:text-white"> Oscar Estrada</span>') _
         </p>
         <h1 className="md:w-3/4 text-[40px] md:text-[85px] leading-custom whitespace-pre-line dark:text-white">
           Frontend developer{' '}
