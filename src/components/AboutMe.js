@@ -2,76 +2,39 @@ import React from 'react';
 
 export const AboutMe = () => {
   return (
-    <div className="w-full min-h-screen px-5 md:px-48 md:pt-20 pb-28 md:pb-40 space-y-10">
+    <div className="w-full min-h-screen px-5 md:px-48 md:pt-20 pb-28 md:pb-40 space-y-10 bg-light-custom dark:bg-dark-custom dark:text-white">
       <p className="text-xl leading-relaxed">
-        <span className="text-green-custom">></span>
+        <span className="dark:text-green-custom">> </span>
         Mi historía no comienza{' '}
-        <span className="text-green-custom">
-          hackeando el sitio web de la NASA
+        <span className="dark:text-green-custom">
+          hackeando la NASA a los 12 años
         </span>{' '}
-        o creando videojuegos a mis 12 años, como suelen iniciar todas las
-        historias de los genios cibernautas. Si bien es cierto que mi interés
-        por la programación inicio a muy temprana edad, fue hasta el inicio de
-        mis 20´s cuando tuve mi primer acercamiento al desarrollo web.
+        como suele iniciar la historia de los genios cibernautas. Todo empieza a
+        mis 20´s cuando la intranet de la empresa para la que trabajaba dejo de
+        funcionar y sin saber al respecto logro reestablecerla
       </p>
       <p className="text-xl leading-relaxed">
-        <span className="text-green-custom">></span>
-        Para no hacerte el cuento largo, el servidor de la empresa para la que
-        trabajaba se daño dejando fuera de servicio su intranet. Nadie sabia que
-        hacer, no teniamos equipo de IT y yo con dificultad podia sumar dos
-        variables en C, pero mi lado geek gano y{' '}
-        <span className="text-green-custom">como gorda en tobogan</span> me
-        lance y asumí la responsabilidad. Extraje la información de los discos
-        duros, hice un formateo del sistema operativo, monte nuevamente la
-        interfaz, conecte la base de datos e hice un backup. Y quizá suene muy
-        pro lo que acabo de decir pero la realidad es que no sabia absolutamente
-        nada de lo que estaba haciendo, simplemente me apoyaba del{' '}
-        <span className="text-green-custom">Dios Google y Youtube</span>
+        <span className="dark:text-green-custom">> </span>
+        Sentir que tu trabajo impacta, fue lo que me lleva a pivotar mi carrera
+        como ingeniero electrónico y dar inicio a mi camino en la industría del
+        software
       </p>
       <p className="text-xl leading-relaxed">
-        <span className="text-green-custom">></span>
-        Más allá de como resolvi el problema con la intranet, sentía que por
-        primera vez{' '}
-        <span className="text-green-custom">aportaba valor con mi trabajo</span>
-        . Fue así como decidí renunciar a mi trayectoria en la industría
-        automotríz y a mi carrera como{' '}
-        <span className="text-green-custom">ingeniero electrónico</span> para
-        dar comienzo a mi camino en la industría del software
-      </p>
-      <p className="text-xl leading-relaxed">
-        <span className="text-green-custom">></span>
-        Como todo estudiante autodidacta mi claridad era nula y las dudas eran
-        inmensas. Después de muchos errores finalmente estructure una ruta de
-        aprendizaje para dominar el stack MERN. En el camino vi cientos de
-        videos en youtube y cursos de pago, leí documentación oficial e incluso
-        termine un curso impartido por la universidad de{' '}
-        <span className="text-green-custom">Harvad CS50</span>
-      </p>
-      <p className="text-xl leading-relaxed">
-        <span className="text-green-custom">></span>
-        De manera paralela a mi aprendizaje realice trabajos como freelancer, al
-        principio usé todo lo que estaba a mi alcance para satisfacer las
-        necesidades de mis clientes, conforme mis habilidades mejoraban
-        estructuraba soluciones mas eficientes en tiempo y dinero. En el camino
-        expandi mi red de contactos, creando un{' '}
-        <span className="text-green-custom">
-          equipo de 3 desarrolladores experimentados
+        <span className="dark:text-green-custom">> </span>
+        Tras una serie de errores finalmente logré estructurar una ruta{' '}
+        <span className="dark:text-green-custom">
+          autodidacta para dominar el stack MERN.
         </span>{' '}
-        que me ayudaban cuando las cosas se complicaban, de los cuales he
-        aprendido mucho
+        Expandí mi red de contactos formando un equipo de desarrolladores
+        experimentados. De manera paralela trabajé como freelancer
       </p>
       <p className="text-xl leading-relaxed">
-        <span className="text-green-custom">>No me considero un experto</span> y
-        se que tengo un largo camino por recorrer, pero la curiosidad por
-        entender como funciona el mundo me ha llevado a estar en constante
-        aprendizaje. En los últimos años he desarrollado una gran habilidad para
-        <span className="text-green-custom"> resolver problemas</span> aun sin
-        saber como hacerlo. En esta etapa de mi vida busco entender el Know-How
-        de la industria del software, desde la planeación hasta la ejecución de
-        un proyecto, quiero ser guiado e instruido por gente con mayor
-        experiencia que yo,{' '}
-        <span className="text-green-custom">compartir, ayudar</span> y seguir
-        expandiendo mi red de contactos_
+        <span className="dark:text-green-custom">> </span>
+        Creo firmemente que el conocimiento es el camino al crecimiento, que
+        para alcanzar tu mayor potencial debe existir un balance en la vida, soy
+        un fiel devoto de la disciplina y la curiosidad por entender lo que no
+        comprendo me mantiene en constante aprendizaje. Cuando no estoy
+        programando seguramente estoy leyendo algún libro o haciendo ejercicio
       </p>
     </div>
   );

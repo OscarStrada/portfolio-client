@@ -24,8 +24,6 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-  background-color: var(--dark-color);
-  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,7 +49,15 @@ code {
   color: var(--green-color);
 }
 
+.dark .dark\:text-green-custom {
+  color: var(--green-color);
+}
+
 .text-dark-custom {
+  color: var(--dark-color);
+}
+
+.dark .dark\:text-dark-custom {
   color: var(--dark-color);
 }
 
@@ -59,7 +65,15 @@ code {
   color: var(--light-color);
 }
 
+.dark .dark\:text-light-custom {
+  color: var(--light-color);
+}
+
 .text-gray-lighter {
+  color: var(--gray-color-lighter);
+}
+
+.dark .dark\:text-gray-lighter {
   color: var(--gray-color-lighter);
 }
 
@@ -67,7 +81,15 @@ code {
   color: var(--gray-color-light);
 }
 
+.dark .dark\:text-gray-light {
+  color: var(--gray-color-light);
+}
+
 .text-gray-dark {
+  color: var(--gray-color-dark);
+}
+
+.dark .dark\:text-gray-dark {
   color: var(--gray-color-dark);
 }
 
@@ -79,7 +101,15 @@ code {
   background-color: var(--dark-color);
 }
 
+.dark .dark\:bg-dark-custom {
+  background-color: var(--dark-color);
+}
+
 .bg-light-custom {
+  background-color: var(--light-color);
+}
+
+.dark .dark\:bg-light-custom {
   background-color: var(--light-color);
 }
 
@@ -87,7 +117,15 @@ code {
   background-color: var(--green-color);
 }
 
+.dark .dark\:bg-green-custom {
+  background-color: var(--green-color);
+}
+
 .bg-complement {
+  background-color: var(--gray-color-dark);
+}
+
+.dark .dark\:bg-complement {
   background-color: var(--gray-color-dark);
 }
 
@@ -97,6 +135,10 @@ code {
 }
 
 .border-green-custom {
+  border-color: var(--green-color);
+}
+
+.dark .dark\:border-green-custom {
   border-color: var(--green-color);
 }
 

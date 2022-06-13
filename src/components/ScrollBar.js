@@ -21,9 +21,9 @@ export const ScrollBar = () => {
   return (
     <div className="hidden md:flex flex-col fixed items-center top-[calc(50%-100px)] right-[40px] space-y-16">
       {/* Scrollbar */}
-      <div className="h-[var(--scrollbar-height)] w-[2px] flex rounded-2xl bg-complement">
+      <div className="h-[var(--scrollbar-height)] w-[2px] flex rounded-2xl bg-gray-300 dark:bg-complement">
         <div
-          className="bg-green-custom w-[2px] rounded-2xl"
+          className="bg-black dark:bg-green-custom w-[2px] rounded-2xl"
           style={{ height: `${scrollBar}%` }}
         ></div>
       </div>
@@ -35,13 +35,13 @@ export const ScrollBar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <BsInstagram className="h-7 fill-[var(--gray-color-dark)] hover:fill-[var(--green-color)]" />
+          <BsInstagram className="h-7 fill-gray-400 hover:fill-black dark:fill-[var(--gray-color-dark)] dark:hover:fill-[var(--green-color)]" />
         </a>
         <a href="#" target="_blank" rel="noreferrer">
-          <FaLinkedinIn className="h-7 fill-[var(--gray-color-dark)] hover:fill-[var(--green-color)]" />
+          <FaLinkedinIn className="h-7 fill-gray-400 hover:fill-black dark:fill-[var(--gray-color-dark)] dark:hover:fill-[var(--green-color)]" />
         </a>
         <a href="https://github.com/Khutz" target="_blank" rel="noreferrer">
-          <BsGithub className="h-7 fill-[var(--gray-color-dark)] hover:fill-[var(--green-color)]" />
+          <BsGithub className="h-7 fill-gray-400 hover:fill-black dark:fill-[var(--gray-color-dark)] dark:hover:fill-[var(--green-color)]" />
         </a>
       </div>
     </div>

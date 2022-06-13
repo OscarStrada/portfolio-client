@@ -1,10 +1,31 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import { HiOutlineX, HiMenuAlt3 } from 'react-icons/hi';
+import { HiOutlineX, HiMenuAlt3, HiMoon, HiOutlineSun } from 'react-icons/hi';
 import { MovilMenu } from './MovilMenu';
 
 export const Navbar = () => {
   const [isMovilMenuOpen, setIsMovilMenuOpen] = useState(false);
+  const [theme, setTheme] = useState(null);
+
+  useEffect(() => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
 
   const toggleMenuMovil = () => {
     setIsMovilMenuOpen(!isMovilMenuOpen);
@@ -12,28 +33,26 @@ export const Navbar = () => {
 
   return (
     <>
-      <header className="w-full block fixed bg-dark-custom">
+      <header className="w-full block fixed bg-light-custom dark:bg-dark-custom">
         {/* Container */}
         <div className="flex items-center relative h-navbar-custom px-5 md:px-20">
           {/* Logo - navbar */}
-          <div className="font-bold text-2xl flex-0">
+          <div className="font-bold text-2xl flex-0 dark:text-white">
             <span className="text-green-custom">></span>oestrada
             <span className="text-green-custom">_</span>
           </div>
           {/* Navigation - navbar */}
           <nav className="flex-1">
             <ul className="hidden md:flex justify-end items-center space-x-10">
-              <li>
-                <Link to={'/'}>About</Link>
-              </li>
-              <li>
-                <Link to={'/'}>Experience</Link>
-              </li>
-              <li>
-                <Link to={'/'}>Work</Link>
-              </li>
-              <button className="border border-green-custom text-green-custom hover:bg-[#00e600] hover:text-black px-5 py-2 rounded-sm">
+              <button className="border border-green-custom bg-green-custom hover:bg-[#11dc11] dark:bg-transparent dark:text-green-custom dark:hover:bg-[#00e600] dark:hover:text-black px-5 py-2 rounded-sm">
                 <Link to={'/'}>Resume</Link>
+              </button>
+              <button onClick={toggleTheme}>
+                {theme === 'dark' ? (
+                  <HiOutlineSun className="text-xl dark:text-white" />
+                ) : (
+                  <HiMoon className="text-xl" />
+                )}
               </button>
             </ul>
           </nav>
